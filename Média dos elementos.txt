@@ -1,0 +1,14 @@
+from random import randint 
+soma = 0
+totelementos = 0
+M = []
+for l in range(0, 10):
+  M.append([])
+  for c in range(0, 10):
+    M[l].append(randint(1, 50))
+    print("[{:^3}]".format(M[l][c]), end='')
+    totelementos = totelementos + 1
+    soma = soma + M[l][c]
+    media = soma/totelementos
+  print()
+print("A media dos elementos é:", media)

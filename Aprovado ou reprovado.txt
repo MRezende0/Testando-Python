@@ -1,0 +1,8 @@
+nota1 = float(input("Digite a primeira nota (0 a 10): "))
+nota2 = float(input("Digite a segunda nota (0 a 10): "))
+aulas = int(input("Numero total de aulas: "))
+faltas = int(input("Numero total de faltas: "))
+if (nota1 + nota2)/2 >= 7 and ((aulas - faltas)*100)/aulas >= 75:
+  print("APROVADO")
+else:
+  print("REPROVADO")

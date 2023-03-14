@@ -1,0 +1,10 @@
+print("informe 3 valores")
+a = int(input("Primeiro numero: "))
+b = int(input("Segundo numero: "))
+c = int(input("Terceiro numero: "))
+if a>b>c:
+  print("O maior numero é ", a)
+elif b>c>a or b>a>c:
+  print("O maior numero é ", b)
+else:
+  print("O maior numero é ", c)

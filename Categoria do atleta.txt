@@ -1,0 +1,13 @@
+idade = int(input("Qual a sua idade?\n"))
+if idade in range(5, 7):
+  print("Sua categoria é Infantil A")
+elif idade in range(8, 11):
+  print("Sua categoria é Infantil B")
+elif idade in range(12, 13):
+  print("Sua categoria é Juvenil A")
+elif idade in range(14, 17):
+  print("Sua categoria é Juvenil B")
+elif idade > 18:
+  print("Sua categoria é Adultos")
+else:
+  print("Vc não tem idade para competir")

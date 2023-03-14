@@ -1,0 +1,15 @@
+import random
+c = 1
+maiornum = 0
+maiordiv = 0
+while c <= 20:
+  num = random.randint(0,50)
+  print(num)
+  c = c + 1
+  if (num > maiornum):
+    maiornum = num
+  if (num % 3 == 0) and (num > maiordiv):
+    maiordiv = num
+print("------------------------------------")
+print("O maior número é:", maiornum)
+print("O maior número divisível por 3 é:", maiordiv)

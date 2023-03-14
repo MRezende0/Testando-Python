@@ -1,0 +1,9 @@
+a = int(input("escolha um numero: "))
+if a < 0:
+  print("numero negativo")
+elif a < 10:
+  print("Numero entre 0 e 9")
+elif a < 20:
+  print("numero entre 10 e 19")
+else:
+  print("numero maior ou igual a 20")

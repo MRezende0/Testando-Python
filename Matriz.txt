@@ -1,0 +1,18 @@
+import random
+a = [0]*10
+
+for i in range(0,10):
+  a[i] = [0]*10
+  for j in range(0,10):
+    a[i][j] = random.randint(1,50)
+
+for i in range(0,10):
+  for j in range(0,10):
+    print("[{:^2}]".format(a[i][j]), end="")
+  print()
+
+for i in range(0,10):
+  for j in range(0,10):
+    if i == j:
+      if a[i][j] % 2 != 0:
+        print(a[i][j])

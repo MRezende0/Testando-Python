@@ -1,0 +1,10 @@
+a = int(input("Primeiro angulo do triangulo: "))
+b = int(input("Segundo angulo do triangulo: "))
+c = int(input("Terceiro angulo do triangulo: "))
+if a + b + c == 180:
+  if a < 90 and b < 90 and c < 90:
+    print("É um triangulo acutangulo")
+  elif a == 90 or b == 90 or c == 90:
+    print("É um triangulo retangulo")
+  elif a > 90 or b > 90 or c > 90:
+    print("É um triangulo obtusangulo")

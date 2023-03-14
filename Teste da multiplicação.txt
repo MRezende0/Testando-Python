@@ -1,0 +1,11 @@
+import random
+num1 = random.randint(0,10)
+print(num1)
+num2 = random.randint(0,10)
+print(num2)
+resultado = num1 * num2
+resposta = int(input("Qual o resultado da multiplicação desses dois numeros? "))
+if resposta == resultado:
+  print("ACERTOU!")
+else:
+  print("ERROU!")

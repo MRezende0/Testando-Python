@@ -1,0 +1,10 @@
+a = int(input("Primeiro lado do triangulo: "))
+b = int(input("Segundo lado do triangulo: "))
+c = int(input("Terceiro lado do triangulo: "))
+if a == b == c:
+  print("É um triangulo equilatero")
+if (a + b < c) or (a + c < b) or (b + c < a):
+  if a == b or a == c or b == c:
+    print("É um triangulo isoceles")
+  else:
+    print("É um triangulo escaleno")

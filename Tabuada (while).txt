@@ -1,0 +1,9 @@
+a = int(input("Digite um numero: "))
+c = 0
+resposta = str(input("Deseja exibir uma tabuada? [s/n]: "))
+while resposta == 's':
+  while c <= 10:
+    resultado = a * c
+    print(a, "X", c, "=", resultado)
+    c = c + 1
+    resposta = str(input("Deseja continuar? [s/n]: "))

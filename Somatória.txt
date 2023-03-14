@@ -1,0 +1,11 @@
+somatoria = 0
+c = 1
+while c != 0:
+  a = int(input("Digite um numero: "))
+  somatoria = somatoria + a
+  c = c + 1
+  print(somatoria)
+  if a == 0:
+    break
+  else:
+    continue

@@ -1,0 +1,12 @@
+c =  0
+soma_par = 0
+soma_impar = 0
+while c < 10:
+  num = int(input("Digite um numero: "))
+  c = c + 1
+  if num % 2 == 0:
+    soma_par = soma_par + num
+  else:
+    soma_impar = soma_impar + num
+print("A soma dos numeros pares é", soma_par)
+print("A soma dos numeros impares é", soma_impar)

@@ -1,0 +1,11 @@
+op = int(input("Escolha um valor para op(1 ou 2): ")
+if op == 1:
+  base = float(input("Valor para a base do retangulo: "))
+  altura = float(input("Valor para a altura do retangulo: "))
+  areaR = base*altura
+  print("A area do retangulo é ", areaR)
+elif op == 2:
+  base = float(input("Valor para a base do triangulo: "))
+  altura = float(input("Valor para a altura do triangulo: "))
+  areaT = (base*altura)/2
+  print("A area do triangulo é ", areaT)

@@ -1,0 +1,6 @@
+frase = str(input("Digite uma frase:\n"))
+
+frase_remove = frase.upper().replace('A', '').replace('E', '').replace('I', '').replace('O', '').replace('U', '').replace(' ', '')
+
+consoantes = " ".join(frase_remove)
+print("As consoantes da frase são:\n", consoantes)
